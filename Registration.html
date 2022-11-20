@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Register New Client</title>
+</head>
+<body>
+    <div class="flex_cont">
+        <div class="flex_grid">
+            <button onClick="window.location.href='./Home.html'"class="Home">Home Page</button>
+            <button onClick="window.location.href='./Admin.html'" class="Home">Register User</button>
+            <button onClick="window.location.href='./Registration.html'"class="Home">Register Client</button>
+            <button onClick="window.location.href='./General_Ledger.php'"class="Home">General Ledger</button>
+            <button onClick="window.location.href='./Cash_Transactions.php'"class="Home">Cash Transaction</button>
+            <button onClick="window.location.href='./Savings_Loan.php'" class="Home">Individual Ledger</button>
+            <button onClick="window.location.href='./index.html'" class="Home">Log Out</button>
+             </div>
+    </div>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>NOTICE: Please All field Must Be Entered!</b></p>
+    <div class="profile">
+        
+        <div class="marg">
+		<form class="form_reg" method="POST" action="Reg_client_db.php">
+        <button class="Preg">Profile Registration</button><br><br>
+        <input placeholder="Full Name Of Applicant" class="File" name="Firstname" type="text" required>
+        <input placeholder="School/Work Address" class="File" name="Lastname" type="text" required>
+        <input placeholder="Residential Address" class="File" name="Address" type="text" required>
+		<input placeholder="Phone Number" class="File" name="Phone" type="text" required><br><br>
+        <input placeholder="Date Of Birth(DD/MM/YYYY)"class="File" name="Date" type="text" required>
+        <input placeholder="Amount(=N=)" class="File" name="Comp_num" type="text" required>
+        <input placeholder="Purpose Of Loan" class="File" name="Placework" type="text" required>
+        <input placeholder="Repayment Schedule" class="File" name="Designation" type="text" required><br><br>
+        <input placeholder="Location" class="File" name="Location" type="text" required>
+		<input placeholder="Computer Number" class="File" name="Interest" type="text" required>
+        <input placeholder="Date Of First Appointment(DD/MM/YYYY)" class="File" name="LF" type="text" required>
+		<input placeholder="Date Of Retirement(DD/MM/YYYY)" class="File" name="Amount" type="text" required><br><br>
+        <input placeholder="Date Of Registration(DD/MM/YYYY)" class="File" name="reg" type="text" required>
+        <input placeholder="Name Of Ministry,School,Department" class="File" name="Particulars" type="text" required><br><br>
+        <button class="Preg">Surety Registration</button><br><br>
+        <input placeholder="Name Of Surety" class="File" name="Credit" type="text" required>
+        <input placeholder="School/Work Address" name="Cashbalance" class="File" type="text" required>
+        <input placeholder="Residential Address" class="File" name="Cash" type="text" required>
+        <input placeholder="Phone Number" class="File" name="Bankname" type="text" required><br><br>
+		<input placeholder="Computer Number" class="File" name="Debit" type="text" required>
+        <input placeholder="Date Of First Appointment(DD/MM/YYYY)" class="File" name="DOF" type="text" required>
+		<input placeholder="Date Of Retirement(DD/MM/YYYY)" class="File" name="DOR" type="text" required><br><br>
+        
+        <button id="save" name="save" class="Home1">Save</button> 
+        <button onClick="window.location.href='./view_client.php'" id="view" name="view" class="Home1">View Client</button>
+    </form>   
+    </div>
+    </div>
+    
+    <script src="/js/script.js"></script>
+    <script type='text/javascript'>
+    $(function(){
+        $('#save').click(function(){
+alert('record saved');
+        });
+    })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Report Page</title>
+</head>
+<body>
+    <div class="header_new">
+        <div class="flex_cont">
+            <div class="flex_grid">
+              <button onClick="window.location.href='./Home.html'"class="Home">Home Page</button>
+            <button onClick="window.location.href='./Admin.html'" class="Home">Register User</button>
+            <button onClick="window.location.href='./Registration.html'"class="Home">Register Client</button>
+            <button onClick="window.location.href='./Report_view.php'"class="Home">Prepare Report</button>
+            <button onClick="window.location.href='./Cash_Transactions.php'"class="Home">Cash Trasaction</button>
+            <button onClick="window.location.href='./Savings_Loan.php'" class="Home">Savings and Loans</button>
+            <button onClick="window.location.href='./index.html'" class="Home">Log Out</button>
+            </div>
+        </div>
+        <div class="form_Client2" >
+        <div>
+        <form class="form_reg2"action=""></form>
+        <button class="Preg1">Search Transactions</button><br><br>
+        <input type="date"><select class="day1" name="Day" id="Day">
+		<option value="">Select Report </option>
+          <option value="">Savings and Loans</option>
+          <option value="">Cash Transactions</option>
+          <option value="">Genaral ledger</option>
+         
+      </select><button class="Home2">Search</button>
+       
+    </div>
+    </div>
+    <div class="table"> <table class="table table-hover">
+      <table style="width:100%" class="table">
+          <thead>
+            <tr>
+              <th scope="col">S/N</th>
+              <th scope="col">DATE</th>
+              <th scope="col">FULL NAME</th>
+              <th scope="col">PARTICULARS</th>
+              <th scope="col">DEBIT</th>
+              <th scope="col">INITIAL CREDIT</th>
+              <th scope="col">FINAL CREDIT</th>
+              <th scope="col">CASH BALANCE</th>
+              <th scope="col">INTEREST</th>
+              <th scope="col">LEDGER</th>
+              <th scope="col">AMOUNT</th>
+              <th scope="col">L/F</th>
+            </tr>
+          </thead>
+          
+        </table>
+    </table>
+    </div>
+    <button class="Home2">Print</button>
+</div>
+    <div></div>
+</body>
+</html>

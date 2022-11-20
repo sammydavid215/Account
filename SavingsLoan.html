@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Savings and Loan</title>
+</head>
+<body>
+    <div class="flex_cont">
+        <div class="flex_grid">
+            <button onClick="window.location.href='./Home.html'"class="Home">Home Page</button>
+            <button onClick="window.location.href='./Admin.html'" class="Home">Register User</button>
+            <button onClick="window.location.href='./Registration.html'"class="Home">Register Client</button>
+            <button onClick="window.location.href='./Report_view.php'"class="Home">Prepare Report</button>
+            <button onClick="window.location.href='./Cash_Transactions.php'"class="Home">Cash Transaction</button>
+            <button onClick="window.location.href='./Savings_Loan.php'" class="Home">Savings and Loans</button>
+            <button onClick="window.location.href='./index.html'" class="Home">Log Out</button>
+            
+            
+        </div>
+    </div>
+    
+    <div class="profilez">
+        <div class="marg3">
+        <form class="form_reg" action="connect.php" method="POST">
+        <button class="Preg">Profie Registration</button><br><br>
+        <input placeholder="Full Name" class="File" type="text" name="Full_name"> <br><br>
+        <input placeholder="Particulars" class="File" type="text" name="Particulars"><br><br>
+        <input placeholder="Interest" class="File" type="text" name="Interest"><br><br>
+        <input  placeholder="Date"class="date"  type="date" name="Date"><br><br>
+        <input placeholder="Debit" class="File" type="text" name="Debit"><br><br>
+        <input placeholder="Initial Credit" class="File" type="text" name="Icredit"><br><br>
+        <input placeholder="Final Credit" class="File" type="text" name="Fcredit"><br><br>
+        <input placeholder="Balance" class="File" type="text" name="Balance"><br><br>
+        <button type="submit" name="submit" class="Homez">Save</button>
+    </form>   
+    
+    </div>
+</body>
+</html>

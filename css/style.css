@@ -1,0 +1,284 @@
+.Username{
+    width: 80mm;
+    height: 12mm;
+    border-radius: 15px;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 220px;}
+    .marg3{
+        margin-left: 450px;
+       
+    }
+    .serch_LF{
+        margin-left: 150px;
+    }
+    .gen_n{
+        margin-left: 0px;
+    }
+    .div_gen{
+        margin-left:100px;
+        margin-top: 30px;
+        margin-right: 50px;
+        width: 1400px;
+        border: white;
+    }
+    .Gen_cash{
+        margin-top: 50px;
+        border:white;
+        width: 1250px;
+        margin-right: 50px;
+        margin-left: 100px;
+    }
+.buttonN{
+    margin-left: 400px;
+}
+    .search_cash{
+        margin-top: 20px;
+        border: 1px solid #dbdbdb;
+    }
+    .profilez{
+        margin-top: 15px;
+        border-radius: 05px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        margin-left: 50px;
+        margin-right: 47px;
+        
+    }
+    
+    .Preg{
+border: white;
+background-color: white;
+margin-top: 10px;
+font-weight: bold;
+margin-left: 75px;
+font-size: 20px;
+
+    }
+    .Preg1{
+        border: white;
+background-color: white;
+margin-top: 0px;
+font-weight: bold;
+margin-left: 355px;
+font-size: 20px;
+    }
+    .form_Client{
+        margin-top: 50px;
+        margin-left: 500px;
+    }
+    .form_Client2{
+        margin-top: 60px;
+        margin-left: 220px;
+    }
+    .Home1{
+        height: 40px;
+        width: 150PX;
+        background-color: gray;
+        border-radius: 5px;
+        margin: 15PX;
+        justify-items: center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 85px;
+        border: 3px solid black;
+    }
+    .Pnum{
+        height: 30px;
+    }
+    .cash_div{
+        margin-right: 300px;
+        border: 1px solid #dbdbdb;
+    }
+    .File1,.File2{
+        width: 300px;
+        height: 30px;
+        border-radius: 05px;
+        margin-left: 10px;
+    }
+    .exp_div{
+        margin-left: 350px;
+    }
+    .table{
+        border: black;
+        margin-right: 70px;
+        margin-left: 50px;
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .Home2{
+        height: 40px;
+        width: 150PX;
+        background-color: gray;
+        margin-top: 5px;
+        border-radius: 5px;
+       
+        justify-items: center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 0px;
+        border: 3px solid black;}
+
+    .marg1{
+        margin-top: 25px;
+        margin-left: 500px;
+    }
+    .date{
+        width: 253px;
+        height: 30px;
+    margin-left: 60px;
+    border-radius: 10px;
+        
+    }
+    .Password{
+        width: 80mm;
+        height: 12mm;
+        border-radius: 15px;
+        justify-items: center;
+        margin-left: 220px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .Home{
+        height: 40px;
+        width: 150PX;
+        background-color: white;
+        border-radius: 5px;
+        margin: 15PX;
+        justify-items: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .Homez{
+        margin-left: 85px;
+        height: 40px;
+        width: 150PX;
+        background-color: white;
+        border-radius: 5px;
+        justify-items: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .day1{
+        width: 50mm;
+        height: 10mm;
+        margin-left: 10px;
+        
+    }
+    .view_client{
+        margin-top: 100px;
+    }
+    .cashtran{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .cashtrans{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .form_reg1{
+        margin-left: 0px;
+    }
+    .form_reg2{
+        margin-left: 300px;
+		margin-top:50px;
+    }
+    .marg{
+        margin-left: 70px;
+    }
+    .profile{
+        margin-top: 25px;
+        border-radius: 05px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        margin: 50px;
+       
+    }
+    .form_reg{
+        border: black;
+        border-radius: 05px;
+    }
+    .day{
+        width: 26mm;
+        height: 8mm;
+        margin-left: 5px
+    }
+    .header_new{
+        border: white;
+        position: fixed;
+        margin-bottom: 30px;
+        
+    }
+    .File{
+        width: 300px;
+        height: 30px;
+        border-radius: 05px;
+      
+        margin-left: 10px;
+    }
+.search_cash{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: white;
+}
+.search_Gen{
+    margin-left: 250px;
+}
+.search_ledger{
+    margin-left: 180px;
+    justify-items: center;
+    align-items: center;
+}
+.flex_grid{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.flex_cont{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+    margin: 0px;
+    margin-left: 130px;
+    
+}  
+.sign_admin{
+margin-left: 342px;
+}  
+
+.sign{
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin-top: 1px;
+    margin-left: 320px;
+    cursor: pointer;
+}
+.sign1{
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.login{
+    margin: 200px;
+    margin-top: 25px;
+    background-color: rgb(250, 249, 248);
+    border-radius: 10px;
+    height: 100mm;
+  width: 200mm;
+  align-items: center;
+  margin-right: 350px;
+  margin-left: 300px;
+}
+.body{
+    align-items: center;
+    background-color: burlywood;
+}
